@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+   display: flex;
+   justify-content: space-between;
+   padding-left: 1em;
+   align-items: center;
+}
+.main a {
+text-decoration: none;
+color: black;
+}
+.main span a{
+    color: white;
+    background-color: blue;
+    border-radius: 7px;
+    padding: 7px 15px 7px 15px;
+
+}
+.main h1 span{
+    color: blue;
+}
+
+.main ul {
+    display: flex;
+    
+}
+.main ul li{
+    border-left: 1px solid white;
+    padding: 1.5em 2em;
+    list-style: none;
+    font-size: 20px;
+}
+.maininfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h1{
+    font-size: 60px;
+    padding-left: 50px;
+}
+.container p{
+    width: 550px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.container h2{
+    color: white;
+    background-color: blue;
+    margin: 50px;
+    border-radius: 8px;
+    font-size: 30px;
+    text-align: center;
+    height: 33px;
+    width: 224px;
+    margin: 50px;
+    font-size: 25px;
+
+}
+.picture img{
+    height: 300px;
+    width: 300px;
+}
+.subclass{
+    text-align: center;
+    padding: 80px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+.list img{
+width: 150px;
+padding: 17px;
+margin: 30px;
+}
+.list span img{
+    margin-top: 55px;
+    height: 96px;
+    
+
+}
+.meet h1{
+    
+    font-size: 60px;
+    text-align: center;
+}
+.talent {
+height: 500px;
+width: 328px ;
+border: 1px solid gray;
+border-radius: 7px;
+text-align: center;
+padding-top: 40px;
+}
+.talent p{
+    padding-top: 40px;
+}
+.talent ul{
+display: flex;
+list-style: none;
+padding: 40px;
+justify-content: space-between;
+}
+.talent li{
+    border: 1px solid gray;
+    background-color: #a5a9ad;
+    width: 85px;
+    height: 32px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 2px;
+}
+.member-keywords li{
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.tale img{
+    height: 100px;
+    width:100px ;
+}
+.tale ul{
+display: flex;
+list-style: none;
+justify-content: space-between;
+padding: 19px;
+    padding-top: 90px;
+
+}
+.tale li{
+    border: 1px solid gray;
+    background-color: #a5a9ad;
+    width: 85px;
+    height: 32px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 11px;
+}
+.tale {
+    padding-top: 40px;
+    border: 1px solid gray;
+border-radius: 10px;
+height: 500px;
+width: 300px;
+text-align: center;
+padding-top: 57px;
+}
+.employees{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.info-points h3{
+font-size: 25px;
+padding-top: 54px;
+
+
+}
+
+.commitment{
+    color: white;
+    background-image: url(vishnu.webp);
+    height: 943px;
+    width: 100%;
+
+    margin-top: 100px;
+
+}
+.threecommit{
+    display: flex;
+    justify-content: center;
+        flex-wrap: wrap
+}
+.space img{
+    height: 100px;
+    width: 100px;
+}
+.space{
+    color: white;
+     background: rgba(0,0,0,.62);
+     height: 308px;
+     width: 340px;
+     border-radius: 20px;
+     text-align: center;
+    margin-top: 36px;
+    margin-left: 185px;
+}
+
+.commit h1 {
+    font-size: 46px;
+    text-align: center;
+    padding-bottom: 125px;
+    padding-top: 64px;
+
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+    width: 700px;
+    /* padding: 30px;
+    margin: 200px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    
+}
+.second img{
+    height: 100px;
+    width: 100px;
+}
+.sun{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #d0d2d4;
+}
+.sun .second{
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+    margin: 15px;
+    color: black;
+}
+
+.head{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.workingimg{
+    display: flex;
+}
+.workingimg img{
+height: 200px;
+width: 200px;
+}
+.matter img{
+    height: 127px;
+    width: 133px;
+}
+
+.humanpotential{
+    /* font-size: 70px; */
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    background-color: rgb(79, 51, 239);
+    margin-top: 120px;
+
+
+}
+.join button{
+    margin: 70px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+}
+.join p{
+    margin: 20px;
+}
+.task{
+    display: flex;
+    justify-content: center;
+}
+.task button{
+    background-color: blue;
+    color: white;
+    margin-top: 90px;
+    height: 40px;
+    width: 135px;
+    border-radius: 10px;
+    margin-left: 3px;
+    border: 2px solid blue;
+    font-size: 18px;
+}
+.task p{
+    margin: 10px;
+    margin-top: 100px;
+}
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: blue; 
+}
+.bottempart h1 {
+    padding-top: 136px;
+    padding-left: 140px;
+    color: white;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-top: 2px solid white;
+    margin: 88px;
+}
+.hold  ul li{
+    color: white;
+    list-style-type: none;
+    margin-top: 10px;
+    
+}
+.hold li {
+display: flex;
+}
+.lastpart h2{
+    color: white;
+    font-size: 15px;
+margin-left: 80px;
+margin-top: -90px;
+}
+.lastpart h3{
+    color: white;
+    font-size: 15px;
+    margin-left: 80px;
+}
+.look{
+    color: white;
+    font-size: 10px;
+    margin-left: 80px;
+    margin-top: -90px;
+}
+                 
